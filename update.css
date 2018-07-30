@@ -1,0 +1,116 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #eee;
+}
+
+div{
+	display: block;
+}
+
+.edit_user{
+	width: 500px;
+	margin: 100px auto;
+}
+
+h1{
+	font-size: 36px;
+	font-weight: 500;
+}
+
+.table{
+	max-width: 100%
+	margin:0 0 20px 0;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	background-color: transparent;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+td{
+	line-height: 1.42857;
+    vertical-align: top;
+    padding: 8px 30px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-top: none !important;
+}
+
+label{
+	font-weight: 100; 
+
+}
+
+
+.thumb{
+	width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.view{
+	width: 315px;
+}
+
+.form-control{
+	width: 100%;
+    height: 34px;
+    font-size: 14px;
+    line-height: 1.42857;
+    color: rgb(85, 85, 85);
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset;
+    padding: 6px 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204);
+    border-image: initial;
+    border-radius: 4px;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+img{
+	border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    vertical-align: middle;
+}
+
+input[type="file"]{
+	display: block;
+}
+
+button{
+
+	margin-top: 10px;
+	padding: 10px 20px;
+	background-color: green;
+	color: white;
+	border-radius: 4px;
+	outline: none;
+	border: none;
+}
+
+#u_delete{
+	float: right;
+    cursor: pointer;
+}
+#u_back{
+	float: left;
+    cursor: pointer;
+}

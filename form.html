@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+
+	<div class="container">
+		<h1 style="text-align: left;">Fill the details</h1>
+		<form>
+			<div class="row">
+				<div class="label">
+					<label>Enter Name:</label>
+				</div>
+				<div class="input">
+					<input type="text" name="name" id="name">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="label">
+					<label>Enter number:</label>
+				</div>
+				<div class="input">
+					<input type="text" name="number" id="number">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="label">
+					<label>Address:</label>
+				</div>
+				<div class="input">
+					<textarea name="address"  style="height: 200px;" id="address"></textarea>
+				</div>
+			</div>
+			<img class="image" id="image">
+			<div class="row">
+				<div class="label">
+					<label>File:</label>
+				</div>
+				<div class="input">
+					<input type="file" name="file" id="file" accept="image/*" onchange="openFile(event)" >
+				</div>
+			</div>
+		</form>
+
+		<button id="submit">Submit</button>
+		<button id="back">Go Back</button>
+	</div>
+
+	<script type="text/javascript" src="form.js"></script>
+</body>
+</html>

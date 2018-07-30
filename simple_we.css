@@ -1,0 +1,97 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: lightgray;
+
+}
+
+div{
+	display: block;
+}
+
+.container{
+	position: relative;
+	height: 282px;
+	width: auto;
+	background-color: rgba(0,0,0,0.8);
+	
+}
+
+.button{
+	position: absolute;
+	top: 45%;
+	left:45%;
+	background-color: rgba(0,0,0,0.8);
+}
+
+.btn{
+	background-color: green;
+	padding: 10px ;
+	color: white;
+	outline: none;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.btn:hover{
+
+	background-color: lightgreen;
+}
+
+.cards{
+	margin: 10px 40px;
+}
+/*for card*/
+.card{
+		min-width: 400px;
+		margin: 10px;
+		float: left;
+		border-radius: 4px;
+		border: 2px solid #ddd;
+		padding: 10px;
+		background-color: #fff;
+}
+/*for link*/
+a{
+	color: rgba(0, 0, 0, 0.7);
+	text-decoration: none;
+}
+
+a:hover{
+	cursor: pointer;
+}
+
+.pull-right{
+	float: right!important;
+}
+
+@media (min-width: 1200px)
+.container {
+    width: -webkit-fill-available;
+}
+
+/*for image*/
+
+.pull-left{
+	float: left!important;
+}
+
+.profile-image{
+	margin-right: 20px;
+	border-radius: 4px;
+	width: 150px;
+	height: 150px;
+}
+
+/*for header name*/
+
+h3{
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+
+}
+

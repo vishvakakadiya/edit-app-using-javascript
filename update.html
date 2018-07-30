@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>update</title>
+	<link rel="stylesheet" type="text/css" href="update.css">
+</head>
+<body>
+	<div class="edit_user">
+		<h1>Edit User</h1>
+
+		<table id="table">
+			<tbody>
+				<tr>
+					<td></td>
+					<td>
+						<img id="u_image" class="thumb" name="u_image">
+						<input type="file" name="u_file" id="u_file">
+					</td>
+				</tr>
+				<tr>
+					<td>Name:</td>
+					<td>
+						<div class="view" id="u_name_div">
+							<label id="u_name"></label>
+						</div>
+						<input type="text" name="u_name_input" class="form-control" id="u_name_input" style="display: none;">
+					</td>
+				</tr>
+				<tr>
+					<td>Number:</td>
+					<td>
+						<div class="view" id="u_number_div">
+							<label id="u_number"></label>
+						</div>
+						<input type="text" name="u_number_input" class="form-control" id="u_number_input" style="display: none;">
+					</td>
+				</tr>
+				<tr>
+					<td>Address:</td>
+					<td>
+						<div class="view" id="u_address_div">
+							<label id="u_address"></label>
+						</div>
+						<input type="text" name="u_address_input" class="form-control" id="u_address_input" style="display: none;">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<button id="u_delete">Delete User</button>
+		<button id="u_back">Go Back</button>
+	</div>
+	<script type="text/javascript" src="update.js"></script>
+</body>
+</html>
